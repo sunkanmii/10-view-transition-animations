@@ -390,7 +390,7 @@ html:active-view-transition-type(flip-3d)::view-transition-new(root) {
   }
 }
 
-/* 9. Mosaic Shatter */
+/* 9. Mosaic Shatter
 html:active-view-transition-type(mosaic)::view-transition-old(root) {
   animation-name: mosaic-out;
 }
@@ -430,7 +430,7 @@ html:active-view-transition-type(mosaic)::view-transition-new(root) {
 }
 
 /* 10. Liquid Morph */
-html:active-view-transition-type(liquid)::view-transition-old(root) {
+/* html:active-view-transition-type(liquid)::view-transition-old(root) {
   animation-name: liquid-out;
   mix-blend-mode: hard-light;
 }
@@ -471,4 +471,4 @@ html:active-view-transition-type(liquid)::view-transition-new(root) {
     transform: scale(1);
     filter: blur(0px) contrast(1);
   }
-}
+}  */
