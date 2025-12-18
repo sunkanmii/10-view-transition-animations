@@ -2,6 +2,13 @@
   navigation: auto;
 }
 
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none; /* Disables the view transition altogether */
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
